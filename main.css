@@ -1,0 +1,276 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    /* for firefox */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: myFirstFont;
+    color: #cfd2c8;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+
+/******************
+FONTS
+******************/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/Dosis-Regular.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(./fonts/AlexBrush-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(./fonts/CaviarDreams.ttf);
+    font-weight: bold;
+}
+
+
+/************************
+ Links etc.
+*************************/
+
+a:hover {
+    color: #cfd2c8;
+}
+
+a:visited {}
+
+
+/************************
+         Intro
+    *************************/
+
+.intro {
+    background-color: #2f4f4f;
+    width: auto;
+    height: 900px;
+    color: white;
+}
+
+.intro h3 {
+    font-family: myFirstfont;
+    color: black;
+    font-size: .8em;
+    position: relative;
+    top: -40px;
+}
+
+/************************
+         Intro
+    *************************/
+.container {
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 30px;
+    text-align: center;
+    font-size: 4em;
+}
+
+.name {
+    width: 500px;
+    height: auto;
+    font-size: 3.4em;
+    font-family: mysecondfont;
+    text-align: center;
+    margin: auto;
+}
+
+.intro h3 {
+    font-family: myFirstfont;
+    color: black;
+    font-size: .8em;
+    position: relative;
+    top: -40px;
+}
+
+
+/************************
+        About Me
+    *************************/
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/** Picture of Me **/
+.pic {
+    width: 100px;
+    float: right;
+    position: relative;
+    top: -137.5px;
+    left: -50px;
+}
+
+.about {
+    width: 50%;
+    min-height:100%;
+    background-color: #cdcdcd;
+    color: black; 
+    margin: auto 0;
+}
+
+.about-text {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about h1,
+.about h2,
+.about h3,
+.about p {
+    margin: 5px 0px;
+}
+
+.skills {
+    padding-top: 20px;
+}
+
+
+
+/************************
+         Projects
+
+.projects {
+    background-color: darkslategray;
+    width: 50%;
+    height: 50%;
+}
+   ************************/
+
+
+
+/************************
+         Contact
+    *************************/
+
+.contact {
+    color: black;
+    background-color: dimgrey;
+    width: 50%;
+}
+
+.contact-text {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;    
+}
+
+/** Dummy Picture of Me (to make text wrap) **/
+.pic-dummy {
+    width: 100px;
+    float: left;
+    position: relative;
+    top: -137.5px;
+    left: -150px;
+}
+
+
+/************************
+  Media Queries
+*************************/
+
+
+/* Large screens up to 1830px ----------- */
+
+@media (max-width: 1830px) {}
+
+
+/* Mid size screens up to 1550px ----------- */
+
+@media (max-width: 1550px) {}
+
+
+/* Mid size screens up to 1265px ----------- */
+
+@media (max-width: 1265px) {}
+
+
+/* Screens up to 1120px ----------- */
+
+@media (max-width: 1120px) {}
+
+
+/* Screens up to 1050px ----------- */
+
+@media (max-width: 1050px) {}
+
+
+/* Screens up to 945px ----------- */
+
+@media (max-width: 945px) {}
+
+
+/* Screens up to 800px ----------- */
+
+@media (max-width: 800px) {}
+
+
+/* Screens up to 750px ----------- */
+
+@media (max-width: 750px) {}
+
+
+/* Screens up to 700px ----------- */
+
+@media (max-width: 700px) {}
+
+
+/* Screens up to 650px ----------- */
+
+@media (max-width: 650px) {}
+
+
+/* Screens up to 600px ----------- */
+
+@media (max-width: 600px) {}
+
+
+/* Screens up to 580px ----------- */
+
+@media (max-width: 580px) {}
+
+
+/* Screens up to 500px ----------- */
+
+@media (max-width: 500px) {}
+
+
+/* Screens up to 415px ----------- */
+
+@media (max-width: 415px) {}
